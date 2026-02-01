@@ -263,6 +263,21 @@ a {
     line-height: 1;
 }
 
+.logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+    transition: var(--transition-fast);
+}
+
+.logo:hover .logo-img {
+    transform: scale(1.05);
+}
+
+.logo-footer .logo-img {
+    height: 55px;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
